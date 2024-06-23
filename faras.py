@@ -233,7 +233,8 @@ activate = True
 def play():
     global dist, instruction, p_index, first, show, lock, winner, activate
     running = True
-
+    clock = pygame.time.Clock()
+    FPS = 60
     handType = ""
     instruction2 = ""
     while running:
@@ -297,6 +298,7 @@ def play():
             display_text(textt, 400, 200, 20, None)
 
         drawBoard()
+        clock.tick(FPS)
 
 #play()
 
