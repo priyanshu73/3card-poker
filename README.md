@@ -2,6 +2,9 @@
 
 Welcome to the simple implementation of the Faras game, also known as Teen Patti, a popular South Asian card game similar to 3-card poker.
 
+![image](https://github.com/user-attachments/assets/3a7e6129-4409-47bd-82f4-57d5967ca07a)
+
+
 ## Table of Contents
 
 - [Overview](#overview)
